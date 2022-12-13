@@ -11,9 +11,9 @@ int main(void)
 	char letter = 'a';
 
 	while (letter <= 'z')
-	char ch = 'a';
+	char = 'a';
 
-	while (ch <= 'z')
+	while (char <= 'z')
 	{
 		if ((letter != 'q') && (letter != 'e'))
 		if ((ch != 'e') && (ch != 'q'))

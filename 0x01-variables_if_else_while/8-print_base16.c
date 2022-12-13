@@ -22,6 +22,6 @@ int main(void) /*Return null*/
 		putchar(letter);
 		letter++;
 	}
-	putchar('\n');
+	putchar(ch);
 	return (0); /*Returns success value*/
 }
