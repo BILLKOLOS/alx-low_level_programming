@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char str[] = "Capitalize on comes.\nhello world!\thello world.hello world\n";
+	char str[] = "Expect.\nhe\thello world.hello world\n";
 	char *ptr;
 
 	ptr = cap_string(str);
