@@ -14,4 +14,5 @@ int main(void)
 	printf("%s, %s\n", s0, s1);
 	set_string(&s1, s0);
 	printf("%s, %s\n", s0, s1);
-	return (0);}
+	return (0);
+}
