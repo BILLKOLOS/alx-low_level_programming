@@ -10,21 +10,21 @@ int main(void)
 {
 	int nb;
 
-	nb = atoi("98");
+	nb = _atoi("98");
 	printf("%d\n", nb);
-	nb = atoi("-402");
+	nb = _atoi("-402");
 	printf("%d\n", nb);
-	nb = atoi("          ------++++++-----+++++--98");
+	nb = _atoi(" ------++++++-----+++++--98");
 	printf("%d\n", nb);
-	nb = atoi("214748364");
+	nb = _atoi("214748364");
 	printf("%d\n", nb);
-	nb = atoi("0");
+	nb = _atoi("0");
 	printf("%d\n", nb);
-	nb = atoi("Suite 402");
+	nb = _atoi("Suite 402");
 	printf("%d\n", nb);
-	nb = atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+	nb = _atoi(" + + - -98 Battery Street; San Francisco, CA 94111 - USA             ");
 	printf("%d\n", nb);
-	nb = atoi("---++++ -++ Sui - te -   402 #cisfun :)");
+	nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
 	printf("%d\n", nb);
-	return (0);
+:	return (0);
 }
