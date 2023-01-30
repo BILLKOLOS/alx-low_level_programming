@@ -1,7 +1,5 @@
-Write a function that prints all the elements of a list_t list.
-
-Prototype: size_t print_list(const list_t *h);
-Return: the number of nodes
-Format: see example
-If str is NULL, print [0] (nil)
-You are allowed to use printf
+[master 67604ab] Write a function that adds a new node at the beginning of a list_t list.
+ 3 files changed, 73 insertions(+)
+ create mode 100644 0x12-singly_linked_lists/2-add_node.c
+ create mode 100644 0x12-singly_linked_lists/2-main.c
+ create mode 100755 0x12-singly_linked_lists/c
