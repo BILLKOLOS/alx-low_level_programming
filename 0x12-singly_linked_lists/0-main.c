@@ -15,7 +15,7 @@ int main(void)
 	list_t hello = {"World", 5, NULL};
 	size_t n;
 
-	head = &hell
+	head = &hello;
 	new = malloc(sizeof(list_t));
 	if (new == NULL)
 	{
@@ -38,3 +38,4 @@ int main(void)
 	free(new);
 	return (0);
 }
+
