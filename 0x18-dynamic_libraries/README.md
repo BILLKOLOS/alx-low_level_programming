@@ -1,0 +1,1 @@
+Staiclibrary iscreated now
